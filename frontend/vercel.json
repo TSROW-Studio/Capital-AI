@@ -11,7 +11,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'self' https://sai-dipak-portfolio.vercel.app https://sai-dipak-portfolio-willyevergreens-projects.vercel.app https://sai-dipak-portfolio-git-main-willyevergreens-projects.vercel.app http://localhost:*"
+          "value": "frame-ancestors *"
         },
         {
           "key": "X-XSS-Protection",
