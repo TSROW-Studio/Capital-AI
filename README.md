@@ -153,7 +153,7 @@ pytest -v
 
 ## 🛣️ Future Roadmap
 
-1. **Live Brokerage Execution (Alpaca / Interactive Brokers)**: Transition from generating trade blotters to direct autonomous execution routing via API.
+1. **Live Brokerage Execution (Alpaca / Interactive Brokers)**: Transition from generating trade blotters to direct autonomous execution routing via API
 2. **Database Persistence (PostgreSQL)**: Implement SQLAlchemy to persistently store user portfolios, multi-tenant accounts, and historical audit ledgers.
 3. **AI "Risk Copilot" (LLM Integration)**: Add an integrated ChatGPT-style side panel hooked into the live FastAPI telemetry to answer on-the-fly portfolio questions (e.g., *"Why did the circuit breaker trigger to AMBER?"*).
 4. **Historical Backtesting Engine**: Build a robust engine to simulate and chart optimized weight performance over rolling 10-year historical windows.
