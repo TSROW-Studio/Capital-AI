@@ -4,7 +4,6 @@ import MarketingNavbar from "@/components/MarketingNavbar"
 import { useState } from "react"
 import Link from "next/link"
 import { Globe } from "@/components/ui/globe"
-import ThemeToggle from "@/components/ThemeToggle"
 
 export default function HeroPage() {
   const [demoOpen, setDemoOpen] = useState(false)
@@ -242,56 +241,6 @@ export default function HeroPage() {
     
       </div>
       
-      {/* --- PRODUCT SECTION --- */}
-      <section id="product" className="w-full py-24 px-8 md:px-20 bg-white dark:bg-[#0A0F1D]">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Product</h2>
-          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl">
-            CapitalAI provides an advanced quantitative optimizer and autonomous safeguard system designed for institutional asset managers. Explore our interactive dashboard to stress-test your portfolio.
-          </p>
-        </div>
-      </section>
-
-      {/* --- RESOURCES SECTION --- */}
-      <section id="resources" className="w-full py-24 px-8 md:px-20 bg-slate-50 dark:bg-slate-900">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Resources</h2>
-          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl">
-            Read our whitepapers on Mean-CVaR optimization and Markov Regime Switching to understand the math behind our capital protection algorithms.
-          </p>
-        </div>
-      </section>
-
-      {/* --- PRICING SECTION --- */}
-      <section id="pricing" className="w-full py-24 px-8 md:px-20 bg-white dark:bg-[#0A0F1D]">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Pricing</h2>
-          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl">
-            Enterprise-grade pricing for institutional clients. API access, dedicated hosting, and white-glove onboarding included. Contact sales for a quote.
-          </p>
-        </div>
-      </section>
-
-      {/* --- ABOUT SECTION --- */}
-      <section id="about" className="w-full py-24 px-8 md:px-20 bg-slate-50 dark:bg-slate-900">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">About Us</h2>
-          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl">
-            We are a team of quantitative researchers and engineers building the next generation of resilient financial infrastructure.
-          </p>
-        </div>
-      </section>
-
-      {/* --- SOLUTIONS SECTION --- */}
-      <section id="solutions" className="w-full py-24 px-8 md:px-20 bg-white dark:bg-[#0A0F1D]">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Solutions</h2>
-          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl">
-            Tailored solutions for Family Offices, Hedge Funds, and Asset Managers aiming to hedge tail-risk and automate portfolio rebalancing.
-          </p>
-        </div>
-      </section>
-
     </main>
   )
 }
